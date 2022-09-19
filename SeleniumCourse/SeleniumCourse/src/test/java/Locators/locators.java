@@ -6,10 +6,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+
 public class locators {
 
 	public static void main(String[] args) {
-		
+
 		//set webdriver object
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Usuario\\Desktop\\Automation\\WebDrivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
