@@ -25,11 +25,17 @@ public class DynamicDropDown {
 				//click the dropdown
 				driver.findElement(By.name("ctl00_mainContent_ddl_originStation1_CTXT")).click();
 				
-				//select start place
-				driver.findElement(By.xpath("//a[@value='VTZ']")).click();
+				//select start place - index way
+				//driver.findElement(By.xpath("//a[@value='VTZ']")).click();
 				
-				//select end place
-				driver.findElement(By.xpath("(//a[@value='DEL'])[2]")).click();
+				//select end place - index way
+				//driver.findElement(By.xpath("(//a[@value='DEL'])[2]")).click();
+				
+				//select start place - parent - child aproach
+				driver.findElement(By.xpath("//div[@id='glsctl00_mainContent_ddl_originStation1_CTNR'] //a[@value='VTZ']")).click();
+				
+				//select end place - parent - child aproach
+				driver.findElement(By.xpath("//div[@id='glsctl00_mainContent_ddl_destinationStation1_CTNR'] //a[@value='DEL']")).click();
 
 				
 				//Exit from browser

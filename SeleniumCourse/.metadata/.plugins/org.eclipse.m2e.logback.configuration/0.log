@@ -1253,3 +1253,6 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.gu
 2022-09-20 09:45:25,035 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-09-20 09:45:25,035 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Usuario\Desktop\Automation\SeleniumCourse\SeleniumCourse\src\main\resources
 2022-09-20 09:45:25,036 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 09:45:25,037 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Usuario\Desktop\Automation\SeleniumCourse\SeleniumCourse\src\test\resources
+2022-09-20 10:00:56,699 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 10:00:56,699 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Usuario\Desktop\Automation\SeleniumCourse\SeleniumCourse\src\main\resources
