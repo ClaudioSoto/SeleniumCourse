@@ -44,6 +44,8 @@ public class Alerts {
 		//confirm or cancel the alert
 		//driver.switchTo().alert().accept();
 		driver.switchTo().alert().dismiss();
+		
+		driver.quit();
 
 	}
 

@@ -932,3 +932,25 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.core 4 0 2022-09-22 12:03:39.350
+!MESSAGE An exception occurred during push on URI https://github.com/ClaudioSoto/SeleniumCourse.git: https://github.com/ClaudioSoto/SeleniumCourse.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/ClaudioSoto/SeleniumCourse.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:540)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:436)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:127)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1335)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:191)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2022-09-22 12:03:39.353
+!MESSAGE Can't connect to any repository: https://github.com/ClaudioSoto/SeleniumCourse.git (https://github.com/ClaudioSoto/SeleniumCourse.git: not authorized)
+
+!ENTRY org.eclipse.equinox.security 1 0 2022-09-22 12:31:46.724
+!MESSAGE New keyring password generated. 
+
+!ENTRY org.eclipse.jdt.debug 2 0 2022-09-22 12:44:40.469
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
