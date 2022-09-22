@@ -28,20 +28,22 @@ public class AddItemsToCart {
 	}
 
 	public static void addProductToCart(WebDriver driver,String targetProduct) throws InterruptedException {
-		//wait for some time
-		Thread.sleep(2000);
 		
 		//select all the products
 		int productsLen = driver.findElements(By.xpath("//h4[@class='product-name']")).size();
-
+		
 		//iterate all the products and print the names
 		for(int i=0; i<productsLen; i++) {
 
 			//to find the target element in the list and click it
 			if(driver.findElements(By.xpath("//h4[@class='product-name']")).get(i).getText().contains(targetProduct)) {
 				System.out.println("The target element index is:" + i);
-				driver.findElements(By.xpath("//button[contains(text(),'ADD TO CART')]")).get(i).click();
-
+				
+				//this line produces problems since the text can change when clicked, and the ids are not the same
+				//driver.findElements(By.xpath("//button[contains(text(),'ADD TO CART')]")).get(i).click();
+				
+				//here we click the add button using the parent child approach for the button
+				driver.findElements(By.xpath("//div[@class='product-action']/button")).get(i).click();
 			}
 		}
 	}
