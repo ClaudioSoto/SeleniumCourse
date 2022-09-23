@@ -25,6 +25,9 @@ public class AddItemsToCart {
 		//add the target product to cart
 		addProductToCart(driver, "Cucumber");
 		addProductToCart(driver, "Pears");
+		
+		//close browser
+		driver.quit();
 	}
 
 	public static void addProductToCart(WebDriver driver,String targetProduct) throws InterruptedException {
