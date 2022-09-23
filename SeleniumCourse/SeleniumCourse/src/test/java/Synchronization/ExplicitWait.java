@@ -8,10 +8,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
-public class ImplicitWait {
-
+public class ExplicitWait {
+	
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
@@ -22,6 +24,9 @@ public class ImplicitWait {
 		//implicit wait
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.manage().window().maximize();
+		
+		//Explicit wait
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 
 		//open website
 		driver.get("https://rahulshettyacademy.com/seleniumPractise/");
@@ -48,13 +53,14 @@ public class ImplicitWait {
 		
 		
 		//proceed with the selected cart
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='action-block'] //button[contains(text(),'PROCEED TO CHECKOUT')]")));
 		driver.findElement(By.xpath("//div[@class='action-block'] //button[contains(text(),'PROCEED TO CHECKOUT')]")).click();
 		
 		//enter promotion code and apply it
 		addAndApplyPromCode(driver);
 
 		//Verify if the code was waplied
-		verifyPromCodeAplied(driver);
+		verifyPromCodeAplied(driver,wait);
 		
 		//close browser
 		//driver.quit();
@@ -109,7 +115,9 @@ public class ImplicitWait {
 		driver.findElement(By.xpath("//div[@class='promoWrapper']/button")).click();
 	}
 	
-	public static void verifyPromCodeAplied(WebDriver driver) {
+	public static void verifyPromCodeAplied(WebDriver driver, WebDriverWait wait) {
+		//esperamos especificamente por este elemento hasta que sea visible
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[@class='promoInfo']")));
 		Assert.assertTrue(driver.findElement(By.xpath("//span[@class='promoInfo']")).isDisplayed(),"El codigo promocional no fue aplicado correctamente");
 	}
 
