@@ -1,13 +1,11 @@
 package WindowsAndIframes;
 
-import java.time.Duration;
 import java.util.Iterator;
 import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ChildWindows {
 
@@ -18,9 +16,6 @@ public class ChildWindows {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Usuario\\Desktop\\Automation\\WebDrivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-
-		//Explicit wait
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(8));
 
 		//open website
 		driver.get("https://rahulshettyacademy.com/loginpagePractise/");
