@@ -4,6 +4,7 @@
 
   <!--TO ADD PARAMETERS TO USE IT IN THE CLASSES, LIKE URL, PASSWORDS, USERS,ETC -->
   <parameter name="URL" value="www.google.com" />
+  <parameter name="APIkey" value="1234567890" />
   
   <test thread-count="5" name="Smoke">
   

@@ -14,11 +14,12 @@ import org.testng.annotations.Test;
 public class TestNgClass1 {
 
 	//to get the parameter from the xml
-	@Parameters({"URL"})
+	@Parameters({"URL","APIkey"})
 	@Test(groups= {"smoke"}, timeOut= 4000)
-	public void test1(String URL) {
+	public void test1(String URL, String ApiKey) {
 		System.out.println("Hello I am the first test!");
 		System.out.println("This is a parameter from xml file: " + URL);
+		System.out.println("This is a parameter from xml file: " + ApiKey);
 	}
 
 	@Test
