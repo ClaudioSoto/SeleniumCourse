@@ -2912,3 +2912,119 @@ java -ea -classpath C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\
   Class:     org.testng.remote.RemoteTestNG
   Args:      -serport 59095 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\smoke.xml
 java -ea -classpath C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes:C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar:C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar org.testng.remote.RemoteTestNG -serport 59095 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\smoke.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-09-27 12:55:51.265
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 59250 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\smoke.xml
+java -ea -classpath C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes:C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar:C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar org.testng.remote.RemoteTestNG -serport 59250 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\smoke.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-09-27 13:08:18.638
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 59344 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\smoke.xml
+java -ea -classpath C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes:C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar:C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar org.testng.remote.RemoteTestNG -serport 59344 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\smoke.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-09-27 13:10:46.490
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 59397 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\smoke.xml
+java -ea -classpath C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes:C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar:C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar org.testng.remote.RemoteTestNG -serport 59397 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\smoke.xml
+
+!ENTRY org.eclipse.ui 4 0 2022-09-27 14:00:11.013
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.io.File.getParentFile()" because the return value of "org.apache.maven.model.Model.getPomFile()" is null
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.getProjectName(ProjectConfigurationManager.java:943)
+	at org.eclipse.m2e.core.ui.internal.wizards.MavenProjectWizardLocationPage.validate(MavenProjectWizardLocationPage.java:299)
+	at org.eclipse.m2e.core.ui.internal.wizards.MavenProjectWizardLocationPage.lambda$2(MavenProjectWizardLocationPage.java:146)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.handlers.WizardHandler$New.executeHandler(WizardHandler.java:263)
+	at org.eclipse.ui.internal.handlers.WizardHandler.execute(WizardHandler.java:283)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:389)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:142)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-09-27 14:07:12.165
+!MESSAGE BadLocationException
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1054)
+	at org.eclipse.jface.text.TreeLineTracker.getLineInformation(TreeLineTracker.java:1163)
+	at org.eclipse.jface.text.AbstractLineTracker.getLineInformation(AbstractLineTracker.java:137)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.getLineInformation(BasicStructuredDocument.java:1461)
+	at org.eclipse.lsp4e.LSPEclipseUtils.toOffset(LSPEclipseUtils.java:164)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers.computeMarkerAttributes(LSPDiagnosticsToMarkers.java:231)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers.lambda$10(LSPDiagnosticsToMarkers.java:157)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers.updateMarkers(LSPDiagnosticsToMarkers.java:186)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers.accept(LSPDiagnosticsToMarkers.java:90)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers.accept(LSPDiagnosticsToMarkers.java:1)
+	at org.eclipse.lsp4e.LanguageClientImpl.publishDiagnostics(LanguageClientImpl.java:89)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:262)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
