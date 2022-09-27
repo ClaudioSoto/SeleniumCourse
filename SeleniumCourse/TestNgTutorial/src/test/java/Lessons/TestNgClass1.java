@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 public class TestNgClass1 {
 
-	@Test(groups= {"smoke"})
+	@Test(groups= {"smoke"}, timeOut= 4000)
 	public void test1() {
 		System.out.println("Hello I am the first test!");
 	}
@@ -29,7 +29,8 @@ public class TestNgClass1 {
 	}
 
 	//this method will be included in the execution via testng.xml
-	@Test (groups= {"smoke"})
+	//this will run as a part of smoke selected test cases and it depends on the execution of test1
+	@Test (groups= {"smoke"}, dependsOnMethods = {"test1"})
 	public void test4() {
 		System.out.println("This test is an included!");
 	}
@@ -77,7 +78,7 @@ public class TestNgClass1 {
 	}
 
 	//this method will be excluded after every emethod
-	@AfterMethod (groups= {"smoke"})
+	@AfterMethod
 	public void test11() {
 		System.out.println("End a test" + "\n");
 	}
