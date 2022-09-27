@@ -8,13 +8,17 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class TestNgClass1 {
 
+	//to get the parameter from the xml
+	@Parameters({"URL"})
 	@Test(groups= {"smoke"}, timeOut= 4000)
-	public void test1() {
+	public void test1(String URL) {
 		System.out.println("Hello I am the first test!");
+		System.out.println("This is a parameter from xml file: " + URL);
 	}
 
 	@Test

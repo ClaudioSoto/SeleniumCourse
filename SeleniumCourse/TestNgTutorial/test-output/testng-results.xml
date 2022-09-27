@@ -2,31 +2,30 @@
 <testng-results ignored="4" total="6" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-27T09:36:47 CDT" name="Suite" finished-at="2022-09-27T09:36:47 CDT" duration-ms="62">
+  <suite started-at="2022-09-27T10:05:52 CDT" name="Suite" finished-at="2022-09-27T10:05:52 CDT" duration-ms="58">
     <groups>
       <group name="smoke">
-        <method signature="TestNgClass1.test1()[pri:0, instance:Lessons.TestNgClass1@1ea9f6af]" name="test1" class="Lessons.TestNgClass1"/>
-        <method signature="TestNgClass1.test4()[pri:0, instance:Lessons.TestNgClass1@1ea9f6af]" name="test4" class="Lessons.TestNgClass1"/>
+        <method signature="TestNgClass1.test1(java.lang.String)[pri:0, instance:Lessons.TestNgClass1@393671df]" name="test1" class="Lessons.TestNgClass1"/>
+        <method signature="TestNgClass1.test4()[pri:0, instance:Lessons.TestNgClass1@393671df]" name="test4" class="Lessons.TestNgClass1"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2022-09-27T09:36:47 CDT" name="Smoke" finished-at="2022-09-27T09:36:47 CDT" duration-ms="62">
+    <test started-at="2022-09-27T10:05:52 CDT" name="Smoke" finished-at="2022-09-27T10:05:52 CDT" duration-ms="58">
       <class name="Lessons.TestNgClass1">
-        <test-method signature="test1()[pri:0, instance:Lessons.TestNgClass1@1ea9f6af]" started-at="2022-09-27T09:36:47 CDT" name="test1" finished-at="2022-09-27T09:36:47 CDT" duration-ms="9" status="PASS">
+        <test-method signature="test1(java.lang.String)[pri:0, instance:Lessons.TestNgClass1@393671df]" started-at="2022-09-27T10:05:52 CDT" name="test1" finished-at="2022-09-27T10:05:52 CDT" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.google.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="test11()[pri:0, instance:Lessons.TestNgClass1@1ea9f6af]" started-at="2022-09-27T09:36:47 CDT" name="test11" finished-at="2022-09-27T09:36:47 CDT" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test11 -->
-        <test-method signature="test4()[pri:0, instance:Lessons.TestNgClass1@1ea9f6af]" started-at="2022-09-27T09:36:47 CDT" name="test4" finished-at="2022-09-27T09:36:47 CDT" duration-ms="1" status="PASS">
+        <test-method signature="test4()[pri:0, instance:Lessons.TestNgClass1@393671df]" started-at="2022-09-27T10:05:52 CDT" name="test4" finished-at="2022-09-27T10:05:52 CDT" depends-on-methods="Lessons.TestNgClass1.test1" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test4 -->
-        <test-method is-config="true" signature="test11()[pri:0, instance:Lessons.TestNgClass1@1ea9f6af]" started-at="2022-09-27T09:36:47 CDT" name="test11" finished-at="2022-09-27T09:36:47 CDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test11 -->
       </class> <!-- Lessons.TestNgClass1 -->
     </test> <!-- Smoke -->
   </suite> <!-- Suite -->

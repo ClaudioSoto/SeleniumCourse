@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
+
+  <!--TO ADD PARAMETERS TO USE IT IN THE CLASSES, LIKE URL, PASSWORDS, USERS,ETC -->
+  <parameter name="URL" value="www.google.com" />
+  
   <test thread-count="5" name="Smoke">
   
   <!--THIS IS FOR SELECT ESPECIFIC TEST CASES THAT ARE IN A GROUP CALLED SMOKE -->
