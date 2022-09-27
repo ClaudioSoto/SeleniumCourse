@@ -2556,3 +2556,271 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
   Class:     org.testng.remote.RemoteTestNG
   Args:      -serport 49934 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\AppData\Local\Temp\testng-eclipse-1796947134\testng-customsuite.xml
 java -ea -classpath C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes:C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar:C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar org.testng.remote.RemoteTestNG -serport 49934 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\AppData\Local\Temp\testng-eclipse-1796947134\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-09-26 12:37:47.813
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50072 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\AppData\Local\Temp\testng-eclipse--2007083331\testng-customsuite.xml
+java -ea -classpath C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes:C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar:C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar org.testng.remote.RemoteTestNG -serport 50072 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\AppData\Local\Temp\testng-eclipse--2007083331\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-09-26 12:43:08.677
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50126 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\AppData\Local\Temp\testng-eclipse-1746048600\testng-customsuite.xml
+java -ea -classpath C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes:C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar:C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar org.testng.remote.RemoteTestNG -serport 50126 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\AppData\Local\Temp\testng-eclipse-1746048600\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-09-26 12:43:41.048
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50137 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\testng.xml
+java -ea -classpath C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes:C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar:C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar org.testng.remote.RemoteTestNG -serport 50137 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-09-26 13:07:57.313
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50402 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\testng.xml
+java -ea -classpath C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes:C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar:C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar org.testng.remote.RemoteTestNG -serport 50402 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-09-26 13:08:09.355
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50405 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\testng.xml
+java -ea -classpath C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes:C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar:C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar org.testng.remote.RemoteTestNG -serport 50405 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-09-26 13:13:24.583
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50449 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\testng.xml
+java -ea -classpath C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes:C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar:C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar org.testng.remote.RemoteTestNG -serport 50449 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-09-26 13:21:13.783
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50532 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\testng.xml
+java -ea -classpath C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes:C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar:C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar org.testng.remote.RemoteTestNG -serport 50532 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-09-26 13:22:08.799
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50544 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\testng.xml
+java -ea -classpath C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes:C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar:C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar org.testng.remote.RemoteTestNG -serport 50544 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-09-26 13:24:02.802
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50563 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\testng.xml
+java -ea -classpath C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes:C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar:C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar org.testng.remote.RemoteTestNG -serport 50563 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-09-26 13:24:24.791
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50570 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\testng.xml
+java -ea -classpath C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes:C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar:C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar org.testng.remote.RemoteTestNG -serport 50570 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-09-26 13:27:07.970
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50636 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\testng.xml
+java -ea -classpath C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes:C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar:C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar org.testng.remote.RemoteTestNG -serport 50636 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-09-26 13:31:53.679
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50685 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\testng2.xml
+java -ea -classpath C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes:C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar:C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar org.testng.remote.RemoteTestNG -serport 50685 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\testng2.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-09-26 13:56:50.177
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51013 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\testng2.xml
+java -ea -classpath C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes:C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar:C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar org.testng.remote.RemoteTestNG -serport 51013 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\testng2.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-09-26 13:59:37.815
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51035 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\testng2.xml
+java -ea -classpath C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes:C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar:C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar org.testng.remote.RemoteTestNG -serport 51035 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\testng2.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-09-26 14:05:09.255
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51100 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\testng2.xml
+java -ea -classpath C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes:C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar:C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar org.testng.remote.RemoteTestNG -serport 51100 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\testng2.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-09-26 14:09:16.811
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51133 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\testng2.xml
+java -ea -classpath C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes:C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar:C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar org.testng.remote.RemoteTestNG -serport 51133 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\testng2.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-09-26 14:09:42.599
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51138 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\testng2.xml
+java -ea -classpath C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes:C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar:C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar org.testng.remote.RemoteTestNG -serport 51138 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\testng2.xml
+!SESSION 2022-09-27 08:20:19.098 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=19
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2022-09-27 08:20:26.520
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-09-27 08:20:26.520
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-09-27 08:20:26.520
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.testng.eclipse 4 4 2022-09-27 08:20:30.446
+!MESSAGE Error
+!STACK 0
+java.util.concurrent.CancellationException
+	at org.eclipse.jface.internal.text.codemining.CancellationExceptionMonitor.isCanceled(CancellationExceptionMonitor.java:33)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.processElements(TestCodeMiningProvider.java:80)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.processElements(TestCodeMiningProvider.java:89)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:67)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1311)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1840)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-09-27 08:20:30.932
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Usuario'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2022-09-27 09:25:14.910
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57139 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\testng2.xml
+java -ea -classpath C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes:C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar:C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar org.testng.remote.RemoteTestNG -serport 57139 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\testng2.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-09-27 09:35:18.110
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57269 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\smoke.xml
+java -ea -classpath C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes:C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar:C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar org.testng.remote.RemoteTestNG -serport 57269 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\smoke.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-09-27 09:35:32.043
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57272 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\smoke.xml
+java -ea -classpath C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes:C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar:C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar org.testng.remote.RemoteTestNG -serport 57272 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\smoke.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-09-27 09:36:00.277
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 25, method: 'textDocument/completion') has been cancelled
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 25, method: 'textDocument/completion') has been cancelled
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:109)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:378)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:377)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1311)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1840)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 25, method: 'textDocument/completion') has been cancelled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:262)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+
+!ENTRY org.testng.eclipse 1 0 2022-09-27 09:36:46.583
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57281 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\smoke.xml
+java -ea -classpath C:\Users\Usuario\eclipse\java-2022-09\eclipse\configuration\org.eclipse.osgi\438\0\.cp\lib\testng-remote.jar:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\test-classes:C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\target\classes:C:\Users\Usuario\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar:C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Usuario\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar org.testng.remote.RemoteTestNG -serport 57281 -protocol json -d C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\test-output C:\Users\Usuario\Desktop\Automation\SeleniumCourse\TestNgTutorial\smoke.xml
