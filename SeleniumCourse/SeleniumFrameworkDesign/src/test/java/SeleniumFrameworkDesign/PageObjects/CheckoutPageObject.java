@@ -1,10 +1,10 @@
-package PageObjects;
+package SeleniumFrameworkDesign.PageObjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 
-import AbstractComponents.AbstractComponent;
+import SeleniumFrameworkDesign.AbstractComponents.AbstractComponent;
 
 public class CheckoutPageObject extends AbstractComponent{
 

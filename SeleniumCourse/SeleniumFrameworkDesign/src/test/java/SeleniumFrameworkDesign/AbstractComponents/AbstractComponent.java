@@ -1,4 +1,4 @@
-package AbstractComponents;
+package SeleniumFrameworkDesign.AbstractComponents;
 
 import java.time.Duration;
 

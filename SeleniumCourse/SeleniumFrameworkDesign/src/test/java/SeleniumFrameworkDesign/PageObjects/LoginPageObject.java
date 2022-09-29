@@ -1,9 +1,9 @@
-package PageObjects;
+package SeleniumFrameworkDesign.PageObjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-import AbstractComponents.AbstractComponent;
+import SeleniumFrameworkDesign.AbstractComponents.AbstractComponent;
 
 public class LoginPageObject extends AbstractComponent{
 	
