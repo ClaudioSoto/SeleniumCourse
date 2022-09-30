@@ -34,8 +34,10 @@ public class CartPageObject extends AbstractComponent{
 		return cartTargetProduct;
 	}
 	
-	public void goToCheckout() {
+	public CheckoutPageObject goToCheckout() {
 		driver.findElement(checkOutButton).click();
+		CheckoutPageObject checkoutObj =  new CheckoutPageObject(driver);
+		return checkoutObj;
 	}
 
 }

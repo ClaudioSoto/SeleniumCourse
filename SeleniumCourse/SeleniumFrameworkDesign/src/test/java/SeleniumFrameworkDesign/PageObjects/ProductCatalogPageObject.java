@@ -40,10 +40,13 @@ public class ProductCatalogPageObject extends AbstractComponent{
 		getTargetProduct(targProd).findElement(addCartButton).click();
 	}
 	
-	public void goToCart() {
+	public CartPageObject goToCart() {
 		waitForElementToAppear(addToCartToast);
 		waitForElementToDisappear(disappearToastAnimation);
 		driver.findElement(cartIcon).click();
+		
+		CartPageObject cartObj = new CartPageObject(driver);
+		return cartObj;
 	}
 	
 

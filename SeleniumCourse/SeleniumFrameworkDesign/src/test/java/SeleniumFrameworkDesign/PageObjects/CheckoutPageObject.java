@@ -30,8 +30,10 @@ public class CheckoutPageObject extends AbstractComponent{
 		driver.findElement(countryOptionList).click();
 	}
 	
-	public void placeTheOrder() {
+	public OrderPageObject placeTheOrder() {
 		driver.findElement(placeOrderButton).click();
+		OrderPageObject orderObj = new OrderPageObject(driver);
+		return orderObj;
 	}
 
 }

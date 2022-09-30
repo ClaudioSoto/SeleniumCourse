@@ -17,14 +17,12 @@ public class PageObjectManager {
 	public WebDriver driver;
 	
 	public PageObjectManager() throws IOException {
-		this.baseObj = new BaseTest();
-		driver = this.baseObj.initializeDriver();
-		
-		this.loginObj = new LoginPageObject(driver);
-		this.productCatalogObj = new ProductCatalogPageObject(driver);
-		this.cartObj = new CartPageObject(driver);
-		this.checkoutObj = new CheckoutPageObject(driver);
-		this.orderObj = new OrderPageObject(driver);
+		baseObj = new BaseTest();
+		loginObj = baseObj.launchApp();
+		productCatalogObj = new ProductCatalogPageObject(loginObj.driver);
+		cartObj = new CartPageObject(loginObj.driver);
+		checkoutObj = new CheckoutPageObject(loginObj.driver);
+		orderObj = new OrderPageObject(loginObj.driver);
 	}
 
 }

@@ -1,55 +1,58 @@
 package SeleniumFrameworkDesign.Tests;
 
 import java.io.IOException;
+
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import SeleniumFrameworkDesign.PageObjects.PageObjectManager;
+import SeleniumFrameworkDesign.PageObjects.CartPageObject;
+import SeleniumFrameworkDesign.PageObjects.CheckoutPageObject;
+import SeleniumFrameworkDesign.PageObjects.OrderPageObject;
+import SeleniumFrameworkDesign.PageObjects.OrdersListPageObject;
+import SeleniumFrameworkDesign.PageObjects.ProductCatalogPageObject;
+import SeleniumFrameworkDesign.TestComponents.BaseTest;
 
-public class StandaloneTestWithDesignPattern {
 
+public class StandaloneTestWithDesignPattern extends BaseTest{
+	//Test data
+	public String targProd = "IPHONE";
+	
 	@Test
 	public void placeOrder() throws IOException {
-		//Test data
-		String targProd = "IPHONE";
-		String country = "Mexico";
-
-		//declare page object manager
-		PageObjectManager manager = new PageObjectManager();
-
-		//laucnh app
-		manager.baseObj.launchApp();
-
-		/* LOGIN PAGE*/
-		//enter login data, and submit
-		manager.loginObj.loginApplication("claudio.soto.ayala@gmail.com", "Legostarwars10.");
-
 		/* CATALOG PAGE*/
+		//ProductCatalogPageObject productCatalogObj = new ProductCatalogPageObject(driver);
+		ProductCatalogPageObject productCatalogObj = loginObj.loginApplication("claudio.soto.ayala@gmail.com", "Legostarwars10.");
 		//add the target product to cart
-		manager.productCatalogObj.addTargetProductToCart(targProd);
-		//go to the cart
-		manager.productCatalogObj.goToCart();
+		productCatalogObj.addTargetProductToCart(targProd);
 
 		/* CART PAGE*/
+		CartPageObject cartObj = productCatalogObj.goToCart();
 		//verify if the target product is on cart
-		Assert.assertNotNull(manager.cartObj.getTargetCartProduct(targProd), "The product was not found!");
-		//go to the checkout page
-		manager.cartObj.goToCheckout();
+		Assert.assertNotNull(cartObj.getTargetCartProduct(targProd), "The product was not found!");
 
 		/* CHECKOUT PAGE*/
+		CheckoutPageObject checkoutObj =  cartObj.goToCheckout();
 		//enter and select the target country  for shipping
-		manager.checkoutObj.selectCountry(country);
-		//place the order
-		manager.checkoutObj.placeTheOrder();
+		checkoutObj.selectCountry("Mexico");
 
 		/* ORDER PAGE*/
+		OrderPageObject orderObj = checkoutObj.placeTheOrder();
 		//verify if place order message is correct
-		Assert.assertTrue(manager.orderObj.getConfirmationMessage().equalsIgnoreCase("Thankyou for the order."));
+		Assert.assertTrue(orderObj.getConfirmationMessage().equalsIgnoreCase("Thankyou for the order."));
 		//go back to home
-		manager.orderObj.returnHome();
-
-		//close brwoser
-		manager.baseObj.closeBrowser();
+		orderObj.returnHome();
 	}
+
+	@Test(dependsOnMethods= {"placeOrder"})
+	public void verifyOrders() {
+
+		ProductCatalogPageObject productCatalogObj = loginObj.loginApplication("claudio.soto.ayala@gmail.com", "Legostarwars10.");
+		OrdersListPageObject orderListObj = productCatalogObj.goToOrders();
+		Assert.assertNotNull(orderListObj.getTargetProductInOrders(targProd));
+
+	}
+
+
 
 }

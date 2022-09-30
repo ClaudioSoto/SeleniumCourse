@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import SeleniumFrameworkDesign.PageObjects.OrdersListPageObject;
 
 public class AbstractComponent {
 	
@@ -16,6 +17,7 @@ public class AbstractComponent {
 	
 	//common locators
 	By homePageButton = By.xpath("//button[@routerlink='/dashboard/']");
+	By OrderPageButton = By.xpath("//button[@routerlink='/dashboard/myorders']");
 	
 	
 	public AbstractComponent(WebDriver driver) {
@@ -34,6 +36,12 @@ public class AbstractComponent {
 	
 	public void goToHome() {
 		driver.findElement(homePageButton).click();
+	}
+	
+	public OrdersListPageObject goToOrders() {
+		driver.findElement(OrderPageButton).click();
+		OrdersListPageObject ordersListObj = new OrdersListPageObject(driver);
+		return ordersListObj;
 	}
 
 }

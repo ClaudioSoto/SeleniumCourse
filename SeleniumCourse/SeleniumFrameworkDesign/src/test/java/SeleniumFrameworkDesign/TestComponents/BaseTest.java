@@ -7,13 +7,17 @@ import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 
+import SeleniumFrameworkDesign.PageObjects.LoginPageObject;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
 	
 	//declare global webdriver
 	public WebDriver driver;
+	public LoginPageObject loginObj;
 	
 	public WebDriver initializeDriver() throws IOException {
 		//delcare fileInputStream for global properties object, if you need to share the project is necessary to fix the path to get local path
@@ -37,17 +41,22 @@ public class BaseTest {
 		
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		
-		return driver;
-
-	}
-	
-	public void launchApp() {
 		driver.get("https://rahulshettyacademy.com/client/");
+
+		return driver;
 	}
 	
-	public void closeBrowser() {
+	@BeforeMethod
+	public LoginPageObject launchApp() throws IOException {
+		driver = initializeDriver();
+		loginObj = new LoginPageObject(driver);
+		return loginObj;
+	}
+	
+	@AfterMethod
+	public void closeApp() {
 		driver.quit();
 	}
+
 
 }
