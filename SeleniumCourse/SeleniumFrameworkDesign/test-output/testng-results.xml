@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-30T15:04:09 CDT" name="Suite" finished-at="2022-09-30T15:04:26 CDT" duration-ms="17236">
+    <groups>
+    </groups>
+    <test started-at="2022-09-30T15:04:09 CDT" name="Test for login" finished-at="2022-09-30T15:04:23 CDT" duration-ms="13822">
+      <class name="SeleniumFrameworkDesign.Tests.LoginTests">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@2b662a77]" started-at="2022-09-30T15:04:09 CDT" name="launchApp" finished-at="2022-09-30T15:04:16 CDT" duration-ms="6794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="verifyCorrectLogin()[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@2b662a77]" started-at="2022-09-30T15:04:16 CDT" name="verifyCorrectLogin" finished-at="2022-09-30T15:04:16 CDT" duration-ms="727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorrectLogin -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@2b662a77]" started-at="2022-09-30T15:04:16 CDT" name="closeApp" finished-at="2022-09-30T15:04:17 CDT" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@2b662a77]" started-at="2022-09-30T15:04:17 CDT" name="launchApp" finished-at="2022-09-30T15:04:22 CDT" duration-ms="5363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="verifyIncorrectLoginMessage()[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@2b662a77]" started-at="2022-09-30T15:04:22 CDT" name="verifyIncorrectLoginMessage" finished-at="2022-09-30T15:04:22 CDT" duration-ms="595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIncorrectLoginMessage -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@2b662a77]" started-at="2022-09-30T15:04:22 CDT" name="closeApp" finished-at="2022-09-30T15:04:23 CDT" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- SeleniumFrameworkDesign.Tests.LoginTests -->
+    </test> <!-- Test for login -->
+    <test started-at="2022-09-30T15:04:09 CDT" name="Test for orders" finished-at="2022-09-30T15:04:26 CDT" duration-ms="17236">
+      <class name="SeleniumFrameworkDesign.Tests.StandaloneTestWithDesignPattern">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.StandaloneTestWithDesignPattern@3c46e67a]" started-at="2022-09-30T15:04:09 CDT" name="launchApp" finished-at="2022-09-30T15:04:15 CDT" duration-ms="6561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="placeOrder()[pri:0, instance:SeleniumFrameworkDesign.Tests.StandaloneTestWithDesignPattern@3c46e67a]" started-at="2022-09-30T15:04:15 CDT" name="placeOrder" finished-at="2022-09-30T15:04:20 CDT" duration-ms="4316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrder -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.StandaloneTestWithDesignPattern@3c46e67a]" started-at="2022-09-30T15:04:20 CDT" name="closeApp" finished-at="2022-09-30T15:04:20 CDT" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.StandaloneTestWithDesignPattern@3c46e67a]" started-at="2022-09-30T15:04:20 CDT" name="launchApp" finished-at="2022-09-30T15:04:25 CDT" duration-ms="4926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="verifyOrders()[pri:0, instance:SeleniumFrameworkDesign.Tests.StandaloneTestWithDesignPattern@3c46e67a]" started-at="2022-09-30T15:04:25 CDT" name="verifyOrders" finished-at="2022-09-30T15:04:26 CDT" depends-on-methods="SeleniumFrameworkDesign.Tests.StandaloneTestWithDesignPattern.placeOrder" duration-ms="1055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrders -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.StandaloneTestWithDesignPattern@3c46e67a]" started-at="2022-09-30T15:04:26 CDT" name="closeApp" finished-at="2022-09-30T15:04:26 CDT" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- SeleniumFrameworkDesign.Tests.StandaloneTestWithDesignPattern -->
+    </test> <!-- Test for orders -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Lessons.TestNgClass1"> <!-- para incluir todos los test cases en una clas, se cancela si usas include-->
+      <methods> <!--ESTO ES PARA EXCLUIR CASOS DE PRUEBA, TAMBIEN EXISTE INCLUDE, POR SI SE DEBEN ELIMINAR MUCHOS TC'S ENTONCES SE INCLUYEN SOLO LOS QUE SE VAN A EXEC-->
+      
+      <!--esto excluye por nombre especifico de metodo-->
+      <exclude name="test3"></exclude>
+      
+      
+      <!--this is to exclude by regex-->
+      <exclude name="test5.*"></exclude>
+      
+      <!--incluye casos de pruebaz especificos-->
+      <!-- <include name="test4"></include> -->
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
