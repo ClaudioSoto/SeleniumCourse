@@ -1,157 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-03T10:26:21 CDT" name="Suite" finished-at="2022-10-03T10:26:53 CDT" duration-ms="32320">
+  <suite started-at="2022-10-03T13:03:51 CDT" name="Default suite" finished-at="2022-10-03T13:04:13 CDT" duration-ms="21923">
     <groups>
     </groups>
-    <test started-at="2022-10-03T10:26:21 CDT" name="Test" finished-at="2022-10-03T10:26:53 CDT" duration-ms="32320">
+    <test started-at="2022-10-03T13:03:51 CDT" name="Default test" finished-at="2022-10-03T13:04:13 CDT" duration-ms="21923">
       <class name="SeleniumFrameworkDesign.Tests.LoginTests">
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@51c668e3]" started-at="2022-10-03T10:26:21 CDT" name="launchApp" finished-at="2022-10-03T10:26:26 CDT" duration-ms="5695" status="PASS">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@25641d39]" started-at="2022-10-03T13:03:51 CDT" name="launchApp" finished-at="2022-10-03T13:03:57 CDT" duration-ms="5641" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="verifyCorrectLogin(java.lang.String,java.lang.String)[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@51c668e3]" started-at="2022-10-03T10:26:26 CDT" name="verifyCorrectLogin" data-provider="getCorrectData" finished-at="2022-10-03T10:26:27 CDT" duration-ms="795" status="PASS">
+        <test-method signature="verifyCorrectLogin(java.util.HashMap)[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@25641d39]" started-at="2022-10-03T13:03:57 CDT" name="verifyCorrectLogin" data-provider="getCorrectData" finished-at="2022-10-03T13:03:58 CDT" duration-ms="762" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[claudio.soto.ayala@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Legostarwars10.]]>
+                <![CDATA[{user=claudio.soto.ayala@gmail.com, password=Legostarwars10.}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCorrectLogin -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@51c668e3]" started-at="2022-10-03T10:26:27 CDT" name="closeApp" finished-at="2022-10-03T10:26:27 CDT" duration-ms="121" status="PASS">
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@25641d39]" started-at="2022-10-03T13:03:58 CDT" name="closeApp" finished-at="2022-10-03T13:03:58 CDT" duration-ms="140" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@51c668e3]" started-at="2022-10-03T10:26:27 CDT" name="launchApp" finished-at="2022-10-03T10:26:32 CDT" duration-ms="4281" status="PASS">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@25641d39]" started-at="2022-10-03T13:03:58 CDT" name="launchApp" finished-at="2022-10-03T13:04:02 CDT" duration-ms="4244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="verifyCorrectLogin(java.lang.String,java.lang.String)[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@51c668e3]" started-at="2022-10-03T10:26:32 CDT" name="verifyCorrectLogin" data-provider="getCorrectData" finished-at="2022-10-03T10:26:32 CDT" duration-ms="756" status="PASS">
+        <test-method signature="verifyCorrectLogin(java.util.HashMap)[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@25641d39]" started-at="2022-10-03T13:04:02 CDT" name="verifyCorrectLogin" data-provider="getCorrectData" finished-at="2022-10-03T13:04:03 CDT" duration-ms="721" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[claudio.soto.ayala@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Legostarwars10.]]>
+                <![CDATA[{user=claudio.soto.ayala@gmail.com, password=Legostarwars10.}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCorrectLogin -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@51c668e3]" started-at="2022-10-03T10:26:32 CDT" name="closeApp" finished-at="2022-10-03T10:26:32 CDT" duration-ms="123" status="PASS">
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@25641d39]" started-at="2022-10-03T13:04:03 CDT" name="closeApp" finished-at="2022-10-03T13:04:03 CDT" duration-ms="118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@51c668e3]" started-at="2022-10-03T10:26:32 CDT" name="launchApp" finished-at="2022-10-03T10:26:37 CDT" duration-ms="4339" status="PASS">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@25641d39]" started-at="2022-10-03T13:04:03 CDT" name="launchApp" finished-at="2022-10-03T13:04:08 CDT" duration-ms="4232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="verifyCorrectLogin(java.lang.String,java.lang.String)[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@51c668e3]" started-at="2022-10-03T10:26:37 CDT" name="verifyCorrectLogin" data-provider="getCorrectData" finished-at="2022-10-03T10:26:38 CDT" duration-ms="747" status="PASS">
+        <test-method signature="verifyIncorrectLoginMessage(java.util.HashMap)[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@25641d39]" started-at="2022-10-03T13:04:08 CDT" name="verifyIncorrectLoginMessage" data-provider="getIncorrectData" finished-at="2022-10-03T13:04:08 CDT" duration-ms="605" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[claudio.soto.ayala@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Legostarwars10.]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCorrectLogin -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@51c668e3]" started-at="2022-10-03T10:26:38 CDT" name="closeApp" finished-at="2022-10-03T10:26:38 CDT" duration-ms="116" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApp -->
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@51c668e3]" started-at="2022-10-03T10:26:38 CDT" name="launchApp" finished-at="2022-10-03T10:26:42 CDT" duration-ms="4367" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApp -->
-        <test-method signature="verifyIncorrectLoginMessage(java.lang.String,java.lang.String)[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@51c668e3]" started-at="2022-10-03T10:26:42 CDT" name="verifyIncorrectLoginMessage" data-provider="getIncorrectData" finished-at="2022-10-03T10:26:43 CDT" duration-ms="636" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[not.a.valid@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Legostarwars10.]]>
+                <![CDATA[{user=not.a.valid@gmail.com, password=Legostarwars10.}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIncorrectLoginMessage -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@51c668e3]" started-at="2022-10-03T10:26:43 CDT" name="closeApp" finished-at="2022-10-03T10:26:43 CDT" duration-ms="142" status="PASS">
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@25641d39]" started-at="2022-10-03T13:04:08 CDT" name="closeApp" finished-at="2022-10-03T13:04:08 CDT" duration-ms="136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@51c668e3]" started-at="2022-10-03T10:26:43 CDT" name="launchApp" finished-at="2022-10-03T10:26:47 CDT" duration-ms="4295" status="PASS">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@25641d39]" started-at="2022-10-03T13:04:08 CDT" name="launchApp" finished-at="2022-10-03T13:04:13 CDT" duration-ms="4248" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="verifyIncorrectLoginMessage(java.lang.String,java.lang.String)[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@51c668e3]" started-at="2022-10-03T10:26:47 CDT" name="verifyIncorrectLoginMessage" data-provider="getIncorrectData" finished-at="2022-10-03T10:26:48 CDT" duration-ms="698" status="PASS">
+        <test-method signature="verifyIncorrectLoginMessage(java.util.HashMap)[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@25641d39]" started-at="2022-10-03T13:04:13 CDT" name="verifyIncorrectLoginMessage" data-provider="getIncorrectData" finished-at="2022-10-03T13:04:13 CDT" duration-ms="693" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[claudio.soto.ayala@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[NotavalidPassword.]]>
+                <![CDATA[{user=claudio.soto.ayala@gmail.com, password=NotavalidPassword.}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIncorrectLoginMessage -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@51c668e3]" started-at="2022-10-03T10:26:48 CDT" name="closeApp" finished-at="2022-10-03T10:26:48 CDT" duration-ms="116" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApp -->
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@51c668e3]" started-at="2022-10-03T10:26:48 CDT" name="launchApp" finished-at="2022-10-03T10:26:52 CDT" duration-ms="4334" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApp -->
-        <test-method signature="verifyIncorrectLoginMessage(java.lang.String,java.lang.String)[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@51c668e3]" started-at="2022-10-03T10:26:52 CDT" name="verifyIncorrectLoginMessage" data-provider="getIncorrectData" finished-at="2022-10-03T10:26:53 CDT" duration-ms="564" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[not.a.valid@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[NotavalidPassword.]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIncorrectLoginMessage -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@51c668e3]" started-at="2022-10-03T10:26:53 CDT" name="closeApp" finished-at="2022-10-03T10:26:53 CDT" duration-ms="130" status="PASS">
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@25641d39]" started-at="2022-10-03T13:04:13 CDT" name="closeApp" finished-at="2022-10-03T13:04:13 CDT" duration-ms="116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
       </class> <!-- SeleniumFrameworkDesign.Tests.LoginTests -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

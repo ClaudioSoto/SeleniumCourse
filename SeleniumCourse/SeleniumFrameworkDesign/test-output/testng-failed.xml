@@ -5,9 +5,8 @@
     <classes>
       <class name="SeleniumFrameworkDesign.Tests.LoginTests">
         <methods>
-          <include name="verifyCorrectLogin"/>
-          <include name="verifyIncorrectLoginMessage"/>
           <include name="closeApp"/>
+          <include name="verifyIncorrectLoginMessage" invocation-numbers="0"/>
           <include name="launchApp"/>
         </methods>
       </class> <!-- SeleniumFrameworkDesign.Tests.LoginTests -->

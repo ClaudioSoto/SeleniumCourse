@@ -1,12 +1,15 @@
 package SeleniumFrameworkDesign.Tests;
 
+import java.io.IOException;
 import java.util.HashMap;
+import java.util.List;
 
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import SeleniumFrameworkDesign.TestComponents.BaseTest;
+import SeleniumFrameworkDesign.TestData.DataReader;
 
 public class LoginTests extends BaseTest{
 
@@ -19,8 +22,8 @@ public class LoginTests extends BaseTest{
 	}
 
 	@Test(dataProvider = "getIncorrectData")
-	public void verifyIncorrectLoginMessage(String user, String password) {
-		loginObj.loginApplication(user, password);
+	public void verifyIncorrectLoginMessage(HashMap<String,String> input) {
+		loginObj.loginApplication(input.get("user"), input.get("password"));
 		Assert.assertEquals(loginObj.getLoginErrorMessage(), "Incorrect email or password.");
 	}
 
@@ -98,10 +101,19 @@ public class LoginTests extends BaseTest{
 	 */
 
 	//using json format
+	/*
 	@DataProvider
 	public Object[][] getIncorrectData(){
 		return new Object[][] {{"not.a.valid@gmail.com","Legostarwars10."},{"claudio.soto.ayala@gmail.com","NotavalidPassword."}
 		,{"not.a.valid@gmail.com","NotavalidPassword."}};
+	}
+	*/
+	
+	//usign jason format by usign external data file
+	@DataProvider
+	public Object[][] getIncorrectData() throws IOException{
+		List <HashMap<String,String>> data = getJsonDataToHashMap(System.getProperty("user.dir") + "\\src\\test\\java\\SeleniumFrameworkDesign\\TestData\\IncorrectLoginTestData.json");
+		return new Object[][] {{data.get(0)},{data.get(1)}};
 	}
 
 }
