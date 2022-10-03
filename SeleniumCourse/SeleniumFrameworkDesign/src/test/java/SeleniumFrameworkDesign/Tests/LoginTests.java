@@ -1,5 +1,7 @@
 package SeleniumFrameworkDesign.Tests;
 
+import java.util.HashMap;
+
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -10,8 +12,8 @@ public class LoginTests extends BaseTest{
 
 
 	@Test(dataProvider = "getCorrectData")
-	public void verifyCorrectLogin(String user, String password) {
-		loginObj.loginApplication(user, password);
+	public void verifyCorrectLogin(HashMap<String,String> input) {
+		loginObj.loginApplication(input.get("user"), input.get("password"));
 		Assert.assertTrue(loginObj.getLoginLogo());
 
 	}
@@ -47,10 +49,29 @@ public class LoginTests extends BaseTest{
 	 */
 
 	//using json  format
+	/*
 	@DataProvider
 	public Object[][] getCorrectData(){
 		return new Object[][] {{"claudio.soto.ayala@gmail.com","Legostarwars10."},{"claudio.soto.ayala@gmail.com","Legostarwars10."}
 		,{"claudio.soto.ayala@gmail.com","Legostarwars10."}};
+	}
+	 */
+
+	//using json  format and hashmap 
+	@DataProvider
+	public Object[][] getCorrectData(){
+		//dataset 1
+		HashMap<String,String> ds1 = new HashMap<String,String>();
+		ds1.put("user", "claudio.soto.ayala@gmail.com");
+		ds1.put("password", "Legostarwars10.");
+
+		//dataset 2
+		HashMap<String,String> ds2 = new HashMap<String,String>();
+		ds2.put("user", "claudio.soto.ayala@gmail.com");
+		ds2.put("password", "Legostarwars10.");
+
+
+		return new Object[][] {{ds1},{ds2}};
 	}
 
 	//using regular format
