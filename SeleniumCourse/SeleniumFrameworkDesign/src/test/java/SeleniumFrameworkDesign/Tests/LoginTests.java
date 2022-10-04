@@ -9,7 +9,6 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import SeleniumFrameworkDesign.TestComponents.BaseTest;
-import SeleniumFrameworkDesign.TestData.DataReader;
 
 public class LoginTests extends BaseTest{
 

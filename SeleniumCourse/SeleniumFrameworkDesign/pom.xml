@@ -51,6 +51,14 @@
     <version>2.13.4</version>
 </dependency>
 
+<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>3.0.0</version>
+</dependency>
+
+
 
 
   </dependencies>
