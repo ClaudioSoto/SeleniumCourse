@@ -39,29 +39,26 @@ public class BaseTest {
 		//declare properties object and load file properties
 		Properties prop = new Properties();
 		prop.load(globalProperties);
-		String browser = prop.getProperty("browser");
-
+		String propertiesBrowser = prop.getProperty("browser");
 		//to execute in terminal
-		//String browser_maven_terminal = System.getProperty("browser");
+		String terminalBrowser = System.getProperty("browser");
 
 		//selects maven value if not null
-		//String browserIfTerminal = terminalBrowserCheck(browser_maven_terminal, browser);
+		String selectedBrowser = terminalBrowserCheck(terminalBrowser, propertiesBrowser);
 
-		//if(driver == null) {
-		/*
-		if(browserIfTerminal.equalsIgnoreCase("chrome")) {
+		if(selectedBrowser.equalsIgnoreCase("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
-		}else if (browserIfTerminal.equalsIgnoreCase("firefox")) {
+		}else if (selectedBrowser.equalsIgnoreCase("firefox")) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
-		}else if (browserIfTerminal.equalsIgnoreCase("edge")){
+		}else if (selectedBrowser.equalsIgnoreCase("edge")){
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
 		}
-		*/
-		//}
 
+
+		/*
 		if(browser.equalsIgnoreCase("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
@@ -72,6 +69,7 @@ public class BaseTest {
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
 		}
+		 */
 
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
