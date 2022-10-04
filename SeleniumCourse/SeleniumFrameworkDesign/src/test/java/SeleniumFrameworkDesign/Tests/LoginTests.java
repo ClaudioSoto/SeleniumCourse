@@ -9,18 +9,19 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import SeleniumFrameworkDesign.TestComponents.BaseTest;
+import SeleniumFrameworkDesign.TestComponents.RetryFailed;
 
 public class LoginTests extends BaseTest{
 
 
-	@Test(dataProvider = "getCorrectData")
+	@Test(dataProvider = "getCorrectData", retryAnalyzer = RetryFailed.class)
 	public void verifyCorrectLogin(HashMap<String,String> input) {
 		loginObj.loginApplication(input.get("user"), input.get("password"));
 		Assert.assertTrue(loginObj.getLoginLogo());
 
 	}
 
-	@Test(dataProvider = "getIncorrectData")
+	@Test(dataProvider = "getIncorrectData" , retryAnalyzer = RetryFailed.class)
 	public void verifyIncorrectLoginMessage(HashMap<String,String> input) {
 		loginObj.loginApplication(input.get("user"), input.get("password"));
 		Assert.assertEquals(loginObj.getLoginErrorMessage(), "Incorrect email or password.");

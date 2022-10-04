@@ -12,13 +12,14 @@ import SeleniumFrameworkDesign.PageObjects.OrderPageObject;
 import SeleniumFrameworkDesign.PageObjects.OrdersListPageObject;
 import SeleniumFrameworkDesign.PageObjects.ProductCatalogPageObject;
 import SeleniumFrameworkDesign.TestComponents.BaseTest;
+import SeleniumFrameworkDesign.TestComponents.RetryFailed;
 
 
 public class StandaloneTestWithDesignPattern extends BaseTest{
 	//Test data
 	public String targProd = "IPHONE";
 	
-	@Test
+	@Test(retryAnalyzer = RetryFailed.class)
 	public void placeOrder() throws IOException {
 		/* CATALOG PAGE*/
 		//ProductCatalogPageObject productCatalogObj = new ProductCatalogPageObject(driver);
@@ -44,7 +45,7 @@ public class StandaloneTestWithDesignPattern extends BaseTest{
 		orderObj.returnHome();
 	}
 
-	@Test(dependsOnMethods= {"placeOrder"})
+	@Test(dependsOnMethods= {"placeOrder"} , retryAnalyzer = RetryFailed.class)
 	public void verifyOrders() {
 
 		ProductCatalogPageObject productCatalogObj = loginObj.loginApplication("claudio.soto.ayala@gmail.com", "Legostarwars10.");
