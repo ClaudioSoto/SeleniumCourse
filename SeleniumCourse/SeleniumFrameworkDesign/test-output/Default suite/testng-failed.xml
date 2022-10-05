@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SeleniumFrameworkDesign.Tests.LoginTests">
+      <class name="SeleniumFrameworkDesign.Runners.runner">
         <methods>
-          <include name="verifyIncorrectLoginMessage" invocation-numbers="1"/>
-          <include name="closeApp"/>
-          <include name="config"/>
-          <include name="launchApp"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
         </methods>
-      </class> <!-- SeleniumFrameworkDesign.Tests.LoginTests -->
+      </class> <!-- SeleniumFrameworkDesign.Runners.runner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

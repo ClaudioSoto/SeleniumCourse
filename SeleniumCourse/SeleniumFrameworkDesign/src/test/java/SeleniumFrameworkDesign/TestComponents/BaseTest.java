@@ -25,6 +25,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 
 import SeleniumFrameworkDesign.PageObjects.LoginPageObject;
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
@@ -102,6 +104,7 @@ public class BaseTest {
 	public void closeApp() {
 		driver.quit();
 	}
+	
 
 	/*UTILITIES */
 

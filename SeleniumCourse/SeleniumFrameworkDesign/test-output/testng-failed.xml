@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" parallel="tests" name="Test for login(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SeleniumFrameworkDesign.Tests.LoginTests">
+      <class name="SeleniumFrameworkDesign.Runners.runner">
         <methods>
-          <include name="verifyIncorrectLoginMessage" invocation-numbers="0"/>
-          <include name="closeApp"/>
-          <include name="launchApp"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
         </methods>
-      </class> <!-- SeleniumFrameworkDesign.Tests.LoginTests -->
+      </class> <!-- SeleniumFrameworkDesign.Runners.runner -->
     </classes>
-  </test> <!-- Test for login(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

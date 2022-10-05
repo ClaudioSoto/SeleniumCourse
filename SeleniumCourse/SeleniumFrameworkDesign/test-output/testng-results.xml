@@ -1,117 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-04T12:39:57 CDT" name="Suite" finished-at="2022-10-04T12:40:20 CDT" duration-ms="23185">
+  <suite started-at="2022-10-05T14:51:28 CDT" name="Default suite" finished-at="2022-10-05T14:51:56 CDT" duration-ms="28363">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:SeleniumFrameworkDesign.Runners.runner@742ff096]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2022-10-04T12:39:57 CDT" name="Test for orders" finished-at="2022-10-04T12:40:14 CDT" duration-ms="16521">
-      <class name="SeleniumFrameworkDesign.Tests.StandaloneTestWithDesignPattern">
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.StandaloneTestWithDesignPattern@1e4d3ce5]" started-at="2022-10-04T12:39:57 CDT" name="launchApp" finished-at="2022-10-04T12:40:04 CDT" duration-ms="6433" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApp -->
-        <test-method signature="placeOrder()[pri:0, instance:SeleniumFrameworkDesign.Tests.StandaloneTestWithDesignPattern@1e4d3ce5]" started-at="2022-10-04T12:40:04 CDT" name="placeOrder" finished-at="2022-10-04T12:40:08 CDT" duration-ms="4381" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- placeOrder -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.StandaloneTestWithDesignPattern@1e4d3ce5]" started-at="2022-10-04T12:40:08 CDT" name="closeApp" finished-at="2022-10-04T12:40:08 CDT" duration-ms="148" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApp -->
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.StandaloneTestWithDesignPattern@1e4d3ce5]" started-at="2022-10-04T12:40:08 CDT" name="launchApp" finished-at="2022-10-04T12:40:12 CDT" duration-ms="4334" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApp -->
-        <test-method signature="verifyOrders()[pri:0, instance:SeleniumFrameworkDesign.Tests.StandaloneTestWithDesignPattern@1e4d3ce5]" started-at="2022-10-04T12:40:12 CDT" name="verifyOrders" finished-at="2022-10-04T12:40:13 CDT" depends-on-methods="SeleniumFrameworkDesign.Tests.StandaloneTestWithDesignPattern.placeOrder" duration-ms="1048" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyOrders -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.StandaloneTestWithDesignPattern@1e4d3ce5]" started-at="2022-10-04T12:40:13 CDT" name="closeApp" finished-at="2022-10-04T12:40:14 CDT" duration-ms="121" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApp -->
-      </class> <!-- SeleniumFrameworkDesign.Tests.StandaloneTestWithDesignPattern -->
-    </test> <!-- Test for orders -->
-    <test started-at="2022-10-04T12:39:57 CDT" name="Test for login" finished-at="2022-10-04T12:40:20 CDT" duration-ms="23185">
-      <class name="SeleniumFrameworkDesign.Tests.LoginTests">
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@16c069df]" started-at="2022-10-04T12:39:57 CDT" name="launchApp" finished-at="2022-10-04T12:40:04 CDT" duration-ms="6433" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApp -->
-        <test-method signature="verifyCorrectLogin(java.util.HashMap)[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@16c069df]" started-at="2022-10-04T12:40:04 CDT" name="verifyCorrectLogin" data-provider="getCorrectData" finished-at="2022-10-04T12:40:04 CDT" duration-ms="837" status="PASS">
+    <test started-at="2022-10-05T14:51:28 CDT" name="Default test" finished-at="2022-10-05T14:51:56 CDT" duration-ms="28363">
+      <class name="SeleniumFrameworkDesign.Runners.runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:SeleniumFrameworkDesign.Runners.runner@742ff096]" started-at="2022-10-05T14:51:28 CDT" name="setUpClass" finished-at="2022-10-05T14:51:28 CDT" duration-ms="282" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{user=claudio.soto.ayala@gmail.com, password=Legostarwars10.}]]>
+                <![CDATA[org.testng.TestRunner@13213f26]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyCorrectLogin -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@16c069df]" started-at="2022-10-04T12:40:04 CDT" name="closeApp" finished-at="2022-10-04T12:40:05 CDT" duration-ms="123" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApp -->
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@16c069df]" started-at="2022-10-04T12:40:05 CDT" name="launchApp" finished-at="2022-10-04T12:40:09 CDT" duration-ms="4360" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApp -->
-        <test-method signature="verifyCorrectLogin(java.util.HashMap)[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@16c069df]" started-at="2022-10-04T12:40:09 CDT" name="verifyCorrectLogin" data-provider="getCorrectData" finished-at="2022-10-04T12:40:10 CDT" duration-ms="717" status="PASS">
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:SeleniumFrameworkDesign.Runners.runner@742ff096]" started-at="2022-10-05T14:51:28 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:51:39 CDT" duration-ms="10422" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{user=claudio.soto.ayala@gmail.com, password=Legostarwars10.}]]>
+                <![CDATA["Place an order"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Place order in the purahcse website"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyCorrectLogin -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@16c069df]" started-at="2022-10-04T12:40:10 CDT" name="closeApp" finished-at="2022-10-04T12:40:10 CDT" duration-ms="190" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApp -->
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@16c069df]" started-at="2022-10-04T12:40:10 CDT" name="launchApp" finished-at="2022-10-04T12:40:15 CDT" duration-ms="4473" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApp -->
-        <test-method signature="verifyIncorrectLoginMessage(java.util.HashMap)[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@16c069df]" started-at="2022-10-04T12:40:15 CDT" name="verifyIncorrectLoginMessage" data-provider="getIncorrectData" finished-at="2022-10-04T12:40:15 CDT" duration-ms="602" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:SeleniumFrameworkDesign.Runners.runner@742ff096]" started-at="2022-10-05T14:51:39 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:51:48 CDT" duration-ms="8808" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{user=not.a.valid@gmail.com, password=Legostarwars10.}]]>
+                <![CDATA["Place an order"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Place order in the purahcse website"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyIncorrectLoginMessage -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@16c069df]" started-at="2022-10-04T12:40:15 CDT" name="closeApp" finished-at="2022-10-04T12:40:15 CDT" duration-ms="113" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApp -->
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@16c069df]" started-at="2022-10-04T12:40:15 CDT" name="launchApp" finished-at="2022-10-04T12:40:20 CDT" duration-ms="4285" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApp -->
-        <test-method signature="verifyIncorrectLoginMessage(java.util.HashMap)[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@16c069df]" started-at="2022-10-04T12:40:20 CDT" name="verifyIncorrectLoginMessage" data-provider="getIncorrectData" finished-at="2022-10-04T12:40:20 CDT" duration-ms="640" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:SeleniumFrameworkDesign.Runners.runner@742ff096]" started-at="2022-10-05T14:51:48 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:51:56 CDT" duration-ms="8785" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{user=claudio.soto.ayala@gmail.com, password=NotavalidPassword.}]]>
+                <![CDATA["Place an order"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Place order in the purahcse website"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyIncorrectLoginMessage -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:SeleniumFrameworkDesign.Tests.LoginTests@16c069df]" started-at="2022-10-04T12:40:20 CDT" name="closeApp" finished-at="2022-10-04T12:40:20 CDT" duration-ms="124" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:SeleniumFrameworkDesign.Runners.runner@742ff096]" started-at="2022-10-05T14:51:56 CDT" name="tearDownClass" finished-at="2022-10-05T14:51:56 CDT" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeApp -->
-      </class> <!-- SeleniumFrameworkDesign.Tests.LoginTests -->
-    </test> <!-- Test for login -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- SeleniumFrameworkDesign.Runners.runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
