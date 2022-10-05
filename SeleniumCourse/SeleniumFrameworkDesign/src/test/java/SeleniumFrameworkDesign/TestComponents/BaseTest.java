@@ -10,11 +10,14 @@ import java.util.List;
 import java.util.Properties;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import com.fasterxml.jackson.core.type.TypeReference;
@@ -46,15 +49,25 @@ public class BaseTest {
 		//selects maven value if not null
 		String selectedBrowser = terminalBrowserCheck(terminalBrowser, propertiesBrowser);
 
-		if(selectedBrowser.equalsIgnoreCase("chrome")) {
+		if(selectedBrowser.contains("chrome")) {
+			ChromeOptions options = new ChromeOptions();
 			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
+			if(selectedBrowser.contains("headless")) {
+				options.addArguments("headless");
+			}
+			driver = new ChromeDriver(options);
+			driver.manage().window().setSize(new Dimension(1440,900));//run in full screen
 		}else if (selectedBrowser.equalsIgnoreCase("firefox")) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
-		}else if (selectedBrowser.equalsIgnoreCase("edge")){
+		}else if (selectedBrowser.contains("edge")){
+			EdgeOptions options = new EdgeOptions();
 			WebDriverManager.edgedriver().setup();
-			driver = new EdgeDriver();
+			if(selectedBrowser.contains("headless")) {
+				options.addArguments("headless");
+			}
+			driver = new EdgeDriver(options);
+			driver.manage().window().setSize(new Dimension(1440,900));//run in full screen
 		}
 
 
