@@ -79,7 +79,6 @@
   
   <profile>
   <id>Regression</id>
-  
     <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
@@ -96,12 +95,10 @@
       </plugins>
     </pluginManagement>
     </build>
-    
   </profile>
   
    <profile>
   <id>Login</id>
-  
       <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
@@ -118,7 +115,26 @@
       </plugins>
     </pluginManagement>
     </build>
+  </profile>
   
+     <profile>
+  <id>CucumberRegression</id>
+      <build>
+    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+      <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.0.0-M7</version>
+        <configuration>
+          <includes>
+          <include>**/runner.java</include>
+          </includes>
+        </configuration>
+      </plugin>
+      </plugins>
+    </pluginManagement>
+    </build>
   </profile>
   
   </profiles>

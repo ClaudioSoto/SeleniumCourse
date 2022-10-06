@@ -18,13 +18,12 @@ public class PurchaseOrderSteps extends BaseTest{
 	public CartPageObject cartObj;
 	public CheckoutPageObject checkoutObj;
 	public OrderPageObject orderObj;
-
-
-	@Given("^The user is in the login page and login$")
-	public void the_user_is_in_the_login_page_and_login() throws Throwable {
+	
+	@Given("^The user is in the login page and enter (.+) and (.+)$")
+    public void the_user_is_in_the_login_page_and_enter_and(String user, String password) throws Throwable {
 		launchApp();
-		productCatalogObj = loginObj.loginApplication("claudio.soto.ayala@gmail.com", "Legostarwars10.");
-	}
+		productCatalogObj = loginObj.loginApplication(user, password);
+    }
 
 	@When("^The user select the target product (.+)$")
 	public void the_user_select_the_target_product(String product) throws Throwable {
@@ -57,10 +56,10 @@ public class PurchaseOrderSteps extends BaseTest{
 		orderObj = checkoutObj.placeTheOrder();
 	}
 
-	@Then("^Verifies the conformation order message$")
-	public void verifies_the_conformation_order_message() throws Throwable {
-		Assert.assertTrue(orderObj.getConfirmationMessage().equalsIgnoreCase("Thankyou for the order."));
-	}
+	@Then("^Verifies the conformation order message \"([^\"]*)\"$")
+    public void verifies_the_conformation_order_message_something(String confirmationMessage) throws Throwable {
+		Assert.assertTrue(orderObj.getConfirmationMessage().equalsIgnoreCase(confirmationMessage));
+    }
 
 	@And("^returns to home$")
 	public void returns_to_home() throws Throwable {
