@@ -14,7 +14,7 @@ public class StaticDropdown {
 	public static void main(String[] args) {
 
 		//set webdriver object
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Usuario\\Desktop\\Automation\\WebDrivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\WebDrivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
 		//implicit wait
